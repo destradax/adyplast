@@ -37,7 +37,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#contacto" class="hidden">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -62,7 +62,7 @@
               <h1>Adyplast</h1>
               <p>Especialistas en lo mejor y lo novedoso.</p>
               <p>Sitio web en construcción.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Escríbenos!</a></p>
+              <p><a class="btn btn-lg btn-primary" href="mailto:adyplast@gmail.com" role="button">Escríbenos!</a></p>
             </div>
           </div>
         </div>
