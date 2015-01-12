@@ -88,6 +88,7 @@
         <div class="col-md-12">
           <h2 class="featurette-heading">Contacto</h2>
           <p class="lead">Nos encontramos ubicados en el barrio Belén Miravalle, en Medellín.</p>
+          <p class="lead">Dirección: CR 79A CL 32A 50</p>
           <p class="lead">Teléfono: 5805133</p>
           <p class="lead">E-mail: <a href="mailto:adyplast@gmail.com">adyplast@gmail.com</a></p>
         </div>
