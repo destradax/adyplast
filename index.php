@@ -86,6 +86,51 @@
 
       <div class="row featurette">
         <div class="col-md-12">
+          <h2 class="featurette-heading">Quienes Somos</h2>
+          <p class="lead">
+            Somos una empresa con mas de 30 años en el mercado, poniendo al servicio de
+            nuestros clientes tecnología propia, además de aportar ideas nuevas para la
+            solución de sus necesidades en la fabricación de bolsas plásticas y similares.
+            Trabajamos con honestidad y compromiso para nuestro bienestar y el de nuestros
+            clientes.
+          </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Nuestros Servicios</h2>
+          <p class="lead">
+            Prestamos el servicio de sellado en alta y baja densidad, en materiales como polietileno, polipropileno, materiales termoencogigles, entre otros.
+            Confeccionamos bolsas impresas o transparentes, con adhesivo, con solapa interior o exterior, solapa volada o exterior invertida, y fuelle de fondo.
+            Sellamos desde 3 hasta 120 cm de largo, en sello de fondo o sello lateral.
+            Sellamos bolsas en alta densidad con fuelles laterales hasta calibre 3.
+            A sus rollos planos le hacemos fuelle abierto para troquel riñón. Tambien le hacemos el sello falso con el nombre de su empresa.
+            Sellado para bolsas a prueba de líquidos con medidas exactas (en milímetros).
+            Refilamos rollos planos y con solapa.
+            Reembobinamos para que sus rollos den el máximo rendimiento.
+          </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Nuestros Productos</h2>
+          <p class="lead">
+            Confeccionamos bates publicitarios (proporcionamos la válvula).
+            Inventores de la bolsa separadora de residuos en 2 y 3 compartimientos.
+          </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-12">
           <h2 class="featurette-heading">Contacto</h2>
           <p class="lead">Nos encontramos ubicados en el barrio Belén Miravalle, en Medellín.</p>
           <p class="lead">Dirección: CR 79A CL 32A 50</p>
