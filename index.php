@@ -64,7 +64,7 @@
             <div class="carousel-caption">
               <h1>Adyplast</h1>
               <p>Especialistas en lo mejor y lo novedoso.</p>
-              <p>Sitio web en construcción.</p>
+              <p>&nbsp;</p>
               <p><a class="btn btn-lg btn-primary" href="mailto:adyplast@gmail.com" role="button">Escríbenos!</a></p>
             </div>
           </div>
