@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
 
     <title>Adyplast.co</title>
@@ -37,7 +37,10 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="#contacto" class="hidden">Contacto</a></li>
+                <li><a href="#quienes-somos">Quienes Somos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -86,7 +89,7 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <h2 class="featurette-heading">Quienes Somos</h2>
+          <h2 id="quienes-somos" class="featurette-heading">Quienes Somos</h2>
           <p class="lead">
             Somos una empresa con mas de 30 años en el mercado, poniendo al servicio de
             nuestros clientes tecnología propia, además de aportar ideas nuevas para la
@@ -101,7 +104,7 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <h2 class="featurette-heading">Nuestros Servicios</h2>
+          <h2 id="servicios" class="featurette-heading">Nuestros Servicios</h2>
           <p class="lead">
             Prestamos el servicio de sellado en alta y baja densidad, en materiales como polietileno, polipropileno, materiales termoencogigles, entre otros.
             Confeccionamos bolsas impresas o transparentes, con adhesivo, con solapa interior o exterior, solapa volada o exterior invertida, y fuelle de fondo.
@@ -119,7 +122,7 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <h2 class="featurette-heading">Nuestros Productos</h2>
+          <h2 id="productos" class="featurette-heading">Nuestros Productos</h2>
           <p class="lead">
             Confeccionamos bates publicitarios (proporcionamos la válvula).
             Inventores de la bolsa separadora de residuos en 2 y 3 compartimientos.
@@ -131,7 +134,7 @@
 
       <div class="row featurette">
         <div class="col-md-12">
-          <h2 class="featurette-heading">Contacto</h2>
+          <h2 id="contacto" class="featurette-heading">Contacto</h2>
           <p class="lead">Nos encontramos ubicados en el barrio Belén Miravalle, en Medellín.</p>
           <p class="lead">Dirección: CR 79A CL 32A 50</p>
           <p class="lead">Teléfono: 5805133</p>
