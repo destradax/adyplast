@@ -94,6 +94,8 @@
             Somos una empresa con mas de 30 años en el mercado, poniendo al servicio de
             nuestros clientes tecnología propia, además de aportar ideas nuevas para la
             solución de sus necesidades en la fabricación de bolsas plásticas y similares.
+          </p>
+          <p class="lead">
             Trabajamos con honestidad y compromiso para nuestro bienestar y el de nuestros
             clientes.
           </p>
@@ -105,16 +107,16 @@
       <div class="row featurette">
         <div class="col-md-12">
           <h2 id="servicios" class="featurette-heading">Nuestros Servicios</h2>
-          <p class="lead">
-            Prestamos el servicio de sellado en alta y baja densidad, en materiales como polietileno, polipropileno, materiales termoencogigles, entre otros.
-            Confeccionamos bolsas impresas o transparentes, con adhesivo, con solapa interior o exterior, solapa volada o exterior invertida, y fuelle de fondo.
-            Sellamos desde 3 hasta 120 cm de largo, en sello de fondo o sello lateral.
-            Sellamos bolsas en alta densidad con fuelles laterales hasta calibre 3.
-            A sus rollos planos le hacemos fuelle abierto para troquel riñón. Tambien le hacemos el sello falso con el nombre de su empresa.
-            Sellado para bolsas a prueba de líquidos con medidas exactas (en milímetros).
-            Refilamos rollos planos y con solapa.
-            Reembobinamos para que sus rollos den el máximo rendimiento.
-          </p>
+          <ul class="lead">
+            <li>Prestamos el servicio de sellado en alta y baja densidad, en materiales como polietileno, polipropileno, materiales termoencogigles, entre otros.</li>
+            <li>Confeccionamos bolsas impresas o transparentes, con adhesivo, con solapa interior o exterior, solapa volada o exterior invertida, y fuelle de fondo.</li>
+            <li>Sellamos desde 3 hasta 120 cm de largo, en sello de fondo o sello lateral.</li>
+            <li>Sellamos bolsas en alta densidad con fuelles laterales hasta calibre 3.</li>
+            <li>A sus rollos planos le hacemos fuelle abierto para troquel riñón. Tambien le hacemos el sello falso con el nombre de su empresa.</li>
+            <li>Sellado para bolsas a prueba de líquidos con medidas exactas (en milímetros).</li>
+            <li>Refilamos rollos planos y con solapa.</li>
+            <li>Reembobinamos para que sus rollos den el máximo rendimiento.</li>
+          </ul>
         </div>
       </div>
 
@@ -125,7 +127,9 @@
           <h2 id="productos" class="featurette-heading">Nuestros Productos</h2>
           <p class="lead">
             Confeccionamos bates publicitarios (proporcionamos la válvula).
-            Inventores de la bolsa separadora de residuos en 2 y 3 compartimientos.
+          </p>
+          <p class="lead">
+            Somos inventores de la bolsa separadora de residuos en 2 y 3 compartimientos.
           </p>
         </div>
       </div>
