@@ -108,7 +108,7 @@
         <div class="col-md-12">
           <h2 id="servicios" class="featurette-heading">Nuestros Servicios</h2>
           <ul class="lead">
-            <li>Prestamos el servicio de sellado en alta y baja densidad, en materiales como polietileno, polipropileno, materiales termoencogigles, entre otros.</li>
+            <li>Prestamos el servicio de sellado en alta y baja densidad, en materiales como polietileno, polipropileno, materiales termoencogibles, entre otros.</li>
             <li>Confeccionamos bolsas impresas o transparentes, con adhesivo, con solapa interior o exterior, solapa volada o exterior invertida, y fuelle de fondo.</li>
             <li>Sellamos desde 3 hasta 120 cm de largo, en sello de fondo o sello lateral.</li>
             <li>Sellamos bolsas en alta densidad con fuelles laterales hasta calibre 3.</li>
@@ -142,6 +142,7 @@
           <p class="lead">Nos encontramos ubicados en el barrio Belén Miravalle, en Medellín.</p>
           <p class="lead">Dirección: CR 79A CL 32A 50</p>
           <p class="lead">Teléfono: 5805133</p>
+          <p class="lead">Celular: 301 650 5605 - 301 379 3711</p>
           <p class="lead">E-mail: <a href="mailto:adyplast@gmail.com">adyplast@gmail.com</a></p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.1101624455212!2d-75.60042099999995!3d6.234662000000019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTQnMDQuOCJOIDc1wrAzNicwMS41Ilc!5e0!3m2!1sen!2sus!4v1421119591434" width="600" height="450" frameborder="0" style="border:0"></iframe>
         </div>
