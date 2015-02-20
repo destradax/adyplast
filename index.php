@@ -9,7 +9,6 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/adyplast.css">
 
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -178,5 +177,6 @@
 		</footer>
 
 	</div><!-- /.container -->
+	<link rel="stylesheet" href="css/adyplast.css">
 </body>
 </html>
