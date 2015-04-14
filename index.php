@@ -154,14 +154,14 @@
 		<div class="row featurette">
 			<div class="col-md-12">
 				<h2 id="escribenos" class="featurette-heading">Escríbenos!</h2>
-				<form>
+				<form method="post">
 					<div class="form-group">
 						<label for="name">Nombre</label>
-						<input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Ingresa tu nombre">
 					</div>
 					<div class="form-group">
 						<label for="message">Mensaje</label>
-						<textarea class="form-control" id="message" rows="5" placeholder="Déjanos tu mensaje"></textarea>
+						<textarea class="form-control" id="message" name="message" rows="5" placeholder="Déjanos tu mensaje"></textarea>
 					</div>
 					<button type="submit" class="btn btn-default">Enviar</button>
 				</form>
@@ -178,5 +178,38 @@
 
 	</div><!-- /.container -->
 	<link rel="stylesheet" href="css/adyplast.css">
+
+	<?php
+	if (isset($_POST['name']) && isset($_POST['message'])) {
+		$username = getenv('ADYPLAST_USER');
+		$password = getenv('ADYPLAST_PASS');
+		$recipient = $username;
+		require 'PHPMailerAutoload.php';
+
+		$mail = new PHPMailer();
+
+		$mail->IsSMTP(); // enable SMTP
+		// $mail->SMTPDebug = 3; // debugging: 1 = errors and messages, 2 = messages only
+		$mail->SMTPAuth = true; // authentication enabled
+		$mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for GMail
+		$mail->Host = "smtp.gmail.com";
+		$mail->Port = 587; // 465 or 587
+		$mail->IsHTML(true);
+		$mail->Username = $username;
+		$mail->Password = $password;
+		$mail->SetFrom($username);
+		$mail->Subject = "Pedido de: {$_POST['name']}";
+		$mail->Body = $_POST['message'];
+		$mail->AddAddress($recipient);
+		if(!$mail->Send()) {
+			$message = "Mailer Error: " . $mail->ErrorInfo;
+		} else {
+			$message =  "Su mensaje ha sido enviado";
+		}
+
+		echo "<script type='text/javascript'>alert('$message');</script>";
+	}
+	?>
+
 </body>
 </html>
