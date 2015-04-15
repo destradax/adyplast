@@ -202,9 +202,9 @@
 		$mail->Body = $_POST['message'];
 		$mail->AddAddress($recipient);
 		if(!$mail->Send()) {
-			$message = "Mailer Error: " . $mail->ErrorInfo;
+			$message = "Ocurrió un error al tratar de enviar tu mensaje";
 		} else {
-			$message =  "Su mensaje ha sido enviado";
+			$message =  "Tu mensaje ha sido enviado";
 		}
 
 		echo "<script type='text/javascript'>alert('$message');</script>";
